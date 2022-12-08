@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>To-do-list</title>
+</head>
+<body>
+    <div id="content">
+        <header><button id="menu"><span class="material-symbols-outlined">
+            menu
+            </span></button><h1>TO - DO LIST</h1></header>
+            <div id="sidebar">
+                <div class="taskContainer" data-sample-pj>
+                    <button id="sample">Sample Project</button> 
+                    <button>
+                        <span id="delete" class="material-symbols-outlined">
+                            delete
+                        </span>
+                    </button>
+                </div>
+                <button id="addProject"><span class="material-symbols-outlined">
+                    add
+                </span>Add Project</button>   
+            </div>
+            <div id="body">
+                    <h3>Sample Project Tasks</h3>
+                    <ul id="list">
+                        <li class="taskContainer" data-delete-task>
+                        </li>
+                    </ul>
+                    <button id="addTask"><span class="material-symbols-outlined">
+                        add
+                    </span>Add task</button>
+            </div>
+            <footer><h4>copyright by yours truly bitchh</h4></footer>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
